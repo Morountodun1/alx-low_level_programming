@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
+#include <stdio.h>
 
 /**
  * print_alphabet - prints lowercase alphabet
@@ -10,5 +10,12 @@
  * @author Morountodun Adekoya
  */
 void print_alphabet(void)
+{
+	int lowercase_value;
 
-#endif /* MAIN_H */
+	for (lowercase_value = 97; lowercase_value < 123; lowercase_value++)
+	{
+		_putchar(lowercase_value);
+	}
+	_putchar('\n');
+}
