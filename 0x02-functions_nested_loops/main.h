@@ -79,4 +79,16 @@ int print_sign(int n);
  */
 int _abs(int n);
 
+/**
+ * print_last_digit - returns the last digit of int
+ * @n: (int) the integer to be procesed.
+ *
+ * @brief A function that computes and returns
+ *     the absolute value of an integer.
+ * Return: (int) the last digit value of int
+ * @file 7-print_last_digit.c
+ * @author Morountodun Adekoya
+ */
+int print_last_digit(int n);
+
 #endif /* MAIN_H */
