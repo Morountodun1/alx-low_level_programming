@@ -43,4 +43,15 @@ void print_alphabet_x10(void);
  */
 int _islower(int n);
 
+/**
+ * _isalpha - check for alphabetic letters
+ * @n: the character to be checked.
+ *
+ * @brief A function that checks for alphabetic letters
+ * Return: (int) 1 if is alphabet and 0 if not alphabet
+ * @file 4-isalpha.c
+ * @author Morountodun Adekoya
+ */
+int _isalpha(int n);
+
 #endif /* MAIN_H */
