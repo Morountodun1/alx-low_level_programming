@@ -32,4 +32,15 @@ void _putchar(int n);
  */
 void print_alphabet_x10(void);
 
+/**
+ * _islower - check for lowercase letters
+ * @n: the character to be checked.
+ *
+ * @brief A function that checks for lowercase letters
+ * Return: (int) 1 if lowercase and 0 if not lowercase
+ * @file 3-islower.c
+ * @author Morountodun Adekoya
+ */
+int _islower(int n);
+
 #endif /* MAIN_H */
