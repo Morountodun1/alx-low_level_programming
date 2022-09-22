@@ -13,12 +13,23 @@ void print_alphabet(void);
 
 /**
  * _putchar - prints character
- * @brief A function that prints character to 
+ * @n: character ascii value
+ * @brief A function that prints character to
  *     stdout
  * Return: (void)
  * @file _putchar.c
  * @author Morountodun Adekoya
  */
-void _putchar(int);
+void _putchar(int n);
+
+/**
+ * print_alphabet_x10 - prints lowercase alphabet 10 times
+ * @brief A function that prints lowercase letters
+ *     from a-z 10 times.
+ * Return: (void)
+ * @file 2-print_alphabet_x10.c
+ * @author Morountodun Adekoya
+ */
+void print_alphabet_x10(void);
 
 #endif /* MAIN_H */

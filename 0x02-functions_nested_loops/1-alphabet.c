@@ -12,7 +12,7 @@
 void print_alphabet(void)
 {
 	int lowercase_value;
-
+	
 	for (lowercase_value = 97; lowercase_value < 123; lowercase_value++)
 	{
 		_putchar(lowercase_value);
