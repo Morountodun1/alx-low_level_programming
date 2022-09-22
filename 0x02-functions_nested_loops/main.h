@@ -67,4 +67,16 @@ int _isalpha(int n);
  */
 int print_sign(int n);
 
+/**
+ * _abs - returns absolute value of int
+ * @n: (int) the integer to be procesed.
+ *
+ * @brief A function that computes and returns
+ *     the absolute value of an integer.
+ * Return: (int) the absolute value of int
+ * @file 6-abs.c
+ * @author Morountodun Adekoya
+ */
+int _abs(int n);
+
 #endif /* MAIN_H */
