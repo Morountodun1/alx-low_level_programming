@@ -33,6 +33,16 @@ void _putchar(int n);
 void print_alphabet_x10(void);
 
 /**
+ * jack_bauer - prints all the hour of the day
+ * @brief A function that computes and returns
+ *     the absolute value of an integer.
+ * Return: (int) the last digit value of int
+ * @file 8-24_hours.c
+ * @author Morountodun Adekoya
+ */
+void jack_bauer(void);
+
+/**
  * _islower - check for lowercase letters
  * @n: the character to be checked.
  *
