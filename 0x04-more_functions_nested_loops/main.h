@@ -2,6 +2,17 @@
 #define MAIN_H
 
 /**
+ * _putchar - prints character
+ * @n: character ascii value
+ * @brief A function that prints character to
+ *     stdout
+ * Return: (void)
+ * @file _putchar.c
+ * @author Morountodun Adekoya
+ */
+void _putchar(int n);
+
+/**
  * _isupper - check for uppercase letters
  * @c: the character to be checked.
  *
