@@ -18,13 +18,10 @@ void more_numbers(void)
 		{
 			if (j > 9)
 			{
-				_putchar('1');
+				putchar('1');
 			}
-			_putchar((j % 10) + '0');
+			putchar((j % 10) + '0');
 		}
-		if (i != 9)
-		{
-			_putchar('\n');
-		}
+		putchar('\n');
 	}
 }
