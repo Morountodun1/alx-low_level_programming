@@ -12,4 +12,15 @@
  */
 int _isupper(int c);
 
+/**
+ * _isdigit - check for digit
+ * @c: the character to be checked.
+ *
+ * @brief A function that checks for digit
+ * Return: (int) 1 if digit and 0 if not digit
+ * @file 1-isdigit.c
+ * @author Morountodun Adekoya
+ */
+int _isdigit(int c);
+
 #endif /* MAIN_H */
