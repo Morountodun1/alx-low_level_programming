@@ -1,0 +1,30 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * more_numbers - print 0-14
+ * @brief A function that prints digit 0-14
+ * Return: (void)
+ * @file 4-more_numbers.c
+ * @author Morountodun Adekoya
+ */
+void more_numbers(void)
+{
+	int i, j;
+
+	for (i = 0; i < 10; i++)
+	{
+		for (j = 0; j < 15; j++)
+		{
+			if (j > 9)
+			{
+				_putchar('1');
+			}
+			_putchar((j % 10) + '0');
+		}
+		if (i != 9)
+		{
+			_putchar('\n');
+		}
+	}
+}

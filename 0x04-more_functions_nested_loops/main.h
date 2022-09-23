@@ -66,4 +66,13 @@ void print_numbers(void);
  */
 void print_most_numbers(void);
 
+/**
+ * more_numbers - print 0-14
+ * @brief A function that prints digit 0-14
+ * Return: (void)
+ * @file 4-more_numbers.c
+ * @author Morountodun Adekoya
+ */
+void more_numbers(void);
+
 #endif /* MAIN_H */
