@@ -56,4 +56,14 @@ int mul(int a, int b);
  */
 void print_numbers(void);
 
+/**
+ * print_most_numbers - print 0-9
+ * @brief A function that prints digit 0-9 except
+ *     2 and 4
+ * Return: (void)
+ * @file 4-print_most_numbers.c
+ * @author Morountodun Adekoya
+ */
+void print_most_numbers(void);
+
 #endif /* MAIN_H */
